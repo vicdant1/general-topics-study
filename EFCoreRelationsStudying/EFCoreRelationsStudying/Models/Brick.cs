@@ -11,7 +11,7 @@ namespace EFCoreRelationsStudying.Models
         [MaxLength(250)]
         public string Title { get; set; } = string.Empty;
         public Color? Color { get; set; }
-
+        public List<Tag> Tags { get; set; }
 
     }
 }
