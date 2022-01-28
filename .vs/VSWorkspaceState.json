@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CSharpProject",
+    "\\CSharpProject\\CSharpProject"
   ],
+  "SelectedNode": "\\CSharpProject\\CSharpProject\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
