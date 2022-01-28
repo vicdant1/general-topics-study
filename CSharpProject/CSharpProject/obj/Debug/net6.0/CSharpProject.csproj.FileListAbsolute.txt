@@ -1,0 +1,15 @@
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\bin\Debug\net6.0\CSharpProject.exe
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\bin\Debug\net6.0\CSharpProject.deps.json
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\bin\Debug\net6.0\CSharpProject.runtimeconfig.json
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\bin\Debug\net6.0\CSharpProject.dll
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\bin\Debug\net6.0\ref\CSharpProject.dll
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\bin\Debug\net6.0\CSharpProject.pdb
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\obj\Debug\net6.0\CSharpProject.csproj.AssemblyReference.cache
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\obj\Debug\net6.0\CSharpProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\obj\Debug\net6.0\CSharpProject.AssemblyInfoInputs.cache
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\obj\Debug\net6.0\CSharpProject.AssemblyInfo.cs
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\obj\Debug\net6.0\CSharpProject.csproj.CoreCompileInputs.cache
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\obj\Debug\net6.0\CSharpProject.dll
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\obj\Debug\net6.0\ref\CSharpProject.dll
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\obj\Debug\net6.0\CSharpProject.pdb
+D:\_projetos\general-topics-study\CSharpProject\CSharpProject\obj\Debug\net6.0\CSharpProject.genruntimeconfig.cache
