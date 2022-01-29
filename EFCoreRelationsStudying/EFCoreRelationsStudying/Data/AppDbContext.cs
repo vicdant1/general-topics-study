@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using EFCoreRelationsStudying.Data;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 namespace EFCoreRelationsStudying.Data
 {
@@ -33,12 +34,15 @@ namespace EFCoreRelationsStudying.Data
 
 public class BrickContextFactory : IDesignTimeDbContextFactory<AppDbContext>
 {
-    public AppDbContext CreateDbContext(string[] args)
+    public AppDbContext CreateDbContext(string[] args = null)
     {
         var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
 
         var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-        optionsBuilder.UseSqlServer(configuration.GetConnectionString("defaultSqlServer"));
+
+        optionsBuilder
+            .UseSqlServer(configuration.GetConnectionString("defaultSqlServer"))
+            .UseLoggerFactory(LoggerFactory.Create(builder => builder.AddConsole()));
 
         return new AppDbContext(optionsBuilder.Options);
     }
