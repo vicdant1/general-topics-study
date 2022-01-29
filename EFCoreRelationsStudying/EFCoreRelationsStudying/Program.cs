@@ -81,8 +81,10 @@ async Task QueryData()
     // get a list of all bricks with the vendors and the tags 
 
     var brickVendorsTags = await context.Bricks
-                                  //.Include(b => b.Tags) -> when i have where, i don't need to specify a include statement, ef understands that the relation will bring this data
-                                  .Where(b => b.Color == Color.Red)
+                                  .Include(b => b.Tags)
+                                  //-> when i have where, i don't need to specify a include statement, ef understands that the relation will bring this data
+                                  //.Where(b => b.Color == Color.Red)
+                                  .Include(b => b.Availability)
                                   .ToArrayAsync();
 
     foreach (var brick in brickVendorsTags)
