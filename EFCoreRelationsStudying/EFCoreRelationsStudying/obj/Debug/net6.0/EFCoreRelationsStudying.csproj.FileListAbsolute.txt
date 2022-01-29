@@ -71,3 +71,4 @@ D:\_projetos\general-topics-study\EFCoreRelationsStudying\EFCoreRelationsStudyin
 D:\_projetos\general-topics-study\EFCoreRelationsStudying\EFCoreRelationsStudying\obj\Debug\net6.0\ref\EFCoreRelationsStudying.dll
 D:\_projetos\general-topics-study\EFCoreRelationsStudying\EFCoreRelationsStudying\obj\Debug\net6.0\EFCoreRelationsStudying.pdb
 D:\_projetos\general-topics-study\EFCoreRelationsStudying\EFCoreRelationsStudying\obj\Debug\net6.0\EFCoreRelationsStudying.genruntimeconfig.cache
+D:\_projetos\general-topics-study\EFCoreRelationsStudying\EFCoreRelationsStudying\bin\Debug\net6.0\appsettings.json

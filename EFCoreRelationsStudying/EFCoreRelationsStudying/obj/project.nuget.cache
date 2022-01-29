@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ufxHKe60PvxMf1AezMS4iHd4RJMqnQ+kk1JiJQNjPFV6fZz8POD82bZEF4I7PlClkeSCQlqPUjIH8xnoZKJo4w==",
+  "dgSpecHash": "9aSL0tfvHYo2E3kTfcZJgWGREg/oquhWHbmMGbdvBgy+OmCYdlO0222FLgvHeMuCTOxy+TeAUUofKb+5u96qzQ==",
   "success": true,
   "projectFilePath": "D:\\_projetos\\general-topics-study\\EFCoreRelationsStudying\\EFCoreRelationsStudying\\EFCoreRelationsStudying.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\dantj\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.1\\microsoft.entityframeworkcore.design.6.0.1.nupkg.sha512",
     "C:\\Users\\dantj\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.1\\microsoft.entityframeworkcore.relational.6.0.1.nupkg.sha512",
     "C:\\Users\\dantj\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.1\\microsoft.entityframeworkcore.sqlserver.6.0.1.nupkg.sha512",
+    "C:\\Users\\dantj\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.1\\microsoft.entityframeworkcore.tools.6.0.1.nupkg.sha512",
     "C:\\Users\\dantj\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\dantj\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
     "C:\\Users\\dantj\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.2-mauipre.1.22054.8\\microsoft.extensions.configuration.6.0.2-mauipre.1.22054.8.nupkg.sha512",
