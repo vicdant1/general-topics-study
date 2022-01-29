@@ -65,5 +65,29 @@ async Task AddData()
 
 async Task QueryData()
 {
-    var objectQuery = await context.BrickAvailabilities.ToArrayAsync();
+    var availableBricksData = await context.BrickAvailabilities
+                                           .Include(ba => ba.Vendor)
+                                           .Include(ba => ba.Brick)
+                                           .ToArrayAsync();
+
+    foreach(var availableBrick in availableBricksData)
+    {
+        Console.WriteLine($"Brick {availableBrick.Brick.Title} available at {availableBrick.Vendor.Name} for EU$ {availableBrick.PriceEur}");
+    }
+
+
+    Console.WriteLine("");
+
+    // get a list of all bricks with the vendors and the tags 
+
+    var brickVendorsTags = await context.Bricks
+                                  //.Include(b => b.Tags) -> when i have where, i don't need to specify a include statement, ef understands that the relation will bring this data
+                                  .Where(b => b.Color == Color.Red)
+                                  .ToArrayAsync();
+
+    foreach (var brick in brickVendorsTags)
+    {
+        Console.WriteLine($"Brick: {brick.Title} {(brick.Tags.Any() ? string.Join(", ", brick.Tags.Select(t => t.Title)) : "")}");
+    }
+
 }
