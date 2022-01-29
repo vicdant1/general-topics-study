@@ -8,6 +8,6 @@ namespace EFCoreRelationsStudying.Models
         public int Id { get; set; }
         [MaxLength(250)]
         public string Title { get; set; } = string.Empty;
-        public List<Brick> Bricks { get; set; }
+        public List<Brick> Bricks { get; set; } = new();
     }
 }
