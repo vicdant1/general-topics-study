@@ -13,5 +13,7 @@ namespace EFCoreRelationsStudying.Models
         public Color? Color { get; set; }
         public List<Tag> Tags { get; set; } = new();
         public List<BrickAvailability> Availability { get; set; } = new();
+        public Product Product { get; set; } = new();
+        public int? ProductId { get; set; }
     }
 }

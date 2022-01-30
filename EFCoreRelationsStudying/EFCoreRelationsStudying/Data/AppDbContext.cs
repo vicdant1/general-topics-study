@@ -17,6 +17,8 @@ namespace EFCoreRelationsStudying.Data
         public DbSet<Vendor> Vendors { get; set; }
         public DbSet<BrickAvailability> BrickAvailabilities { get; set; }
         public DbSet<Tag> Tags { get; set; }
+        public DbSet<Product> Products { get; set; }
+
 
 
         // OnModelCreating is a function that initialize all of boring stuff in migrations, btw, we can override this method to make the same as dataannotations does in the models or configure some special feature.

@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CSharpProject",
-    "\\CSharpProject\\CSharpProject"
+    "\\EFCoreRelationsStudying",
+    "\\EFCoreRelationsStudying\\EFCoreRelationsStudying",
+    "\\EFCoreRelationsStudying\\EFCoreRelationsStudying\\Models"
   ],
-  "SelectedNode": "\\CSharpProject\\CSharpProject\\Program.cs",
+  "SelectedNode": "\\EFCoreRelationsStudying\\EFCoreRelationsStudying\\Models\\MinifigHead.cs",
   "PreviewInSolutionExplorer": false
 }
