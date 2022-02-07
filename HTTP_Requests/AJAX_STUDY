@@ -51,6 +51,10 @@ understanding middlewares:
 
 well, i very often use middlewares configs like cors enable in my c# dotnet APIs, but what is the exact concept of this term?
 
+pipeline -> road of the request, in this way, request and response are treated.
 
+middleware (pt-br: software intermediario)
+	-> make it possible to integrate different software's patterns 
+	-> it can modify data during system transaction 
 
-
+* cross origin troubles can be usually solved with middlewares.  
