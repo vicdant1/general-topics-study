@@ -1,0 +1,55 @@
+http protocol course - understanding the protocol
+
+http - hyper text transfer protocol
+
+methods:
+
+get - retrieves data from server
+post - submit data to the server
+put - update data of the server
+delete - delete data from the server
+
+body:
+	in the body we have important data of the request, request and response has the body
+
+	the body can be data that comes from server (json, html code, css code, etc)
+
+	and the body can be data we are sending on request, for example, when we are sending
+	some data form, the fields of this forms will be part of the request body
+
+headers:
+	in general way a request is builded like this:
+
+		METHOD PATH PROTOCOL
+		get products/eletronics/keyboards http 1.0
+
+	headers specify configuration, we have this division
+
+	general - url, method, status code, remote address (ip of computer wich is making request or recieving)
+	request - server(it is hidden for security in the most part of the times), set-cookie (have to study about cookies), content-type*, content-length, date.
+	response - cookies, accept-xxx (it has something with cors), content-type *, authorization, user-agent, referrer
+
+	* content-type -> in generics i think this could be the same for both of them, when we are using ajax we have a small difference between data-type and content-type; in this case, content-type will be the data we are sending to the server, and data-type will be that one wich we are waiting for.
+
+http status code:
+
+1xx - information -> request recieved, we are processing this data to make a response
+2xx - success -> request recieved, understood and accepted
+3xx - redirect -> futher action that will be taken/redirected
+4xx - client error -> server didn't recieved enough information from client, for example, there is something missing on request.
+5xx - server error -> we have enough data but something went wrong in the server-side
+
+use this website to work with http codes, u don't need to remember all of then https://http.cat
+
+
+usual - 200, 201, 301, 304, 400, 401, 404, 500
+
+
+
+
+
+
+
+
+
+
