@@ -44,12 +44,16 @@ use this website to work with http codes, u don't need to remember all of then h
 
 usual - 200, 201, 301, 304, 400, 401, 404, 500
 
+of course we can simulate a form on website using json syntax with insomnia or postman
 
+{
+	"name": "abluble",
+	"age": "20",
+	"abluble": "ablubleblelbe"
+}
 
+content-type -> application/json
 
+json -> javascript object notation
 
-
-
-
-
-
+in asp.net i use to make conditional with IActionResult + http code

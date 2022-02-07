@@ -1,0 +1,56 @@
+ajax - asynchronous javascript and xml
+
+ajax make it possible to not to render all the page's content again once something changed or need to be updated.
+
+with this abstraction of http standart api methods, we can make interations between controllers and views, in Elite I used to use ajax to interact with data on MVC Architecture
+
+had a view
+
+<html>
+	<form onSubmit="ajaxRequest(params)">
+		abluble
+	<form/>
+</html>
+
+<script>
+@Scripts {
+	function ajaxRequest(params){
+		$.ajax({
+			method: "get/post",
+			url: `controller/method?param1=${params.param1}&param2=${params.param2}`,
+			dataType: "application/json",
+			contentType: "application/json",
+			/*
+				I could use a data object to send information when using post method, or send it through query
+			*/
+			data: {
+				"param1": params.param1, // without the "" it wont work
+				"param2": params.param2
+			},
+			// when using this approach, in the asp controller we should use FromBody (it reffers to request body)
+			
+			success: function(dataThatComesFromBackEnd){
+				alert(data) || document.querySelector("#mainContentDiv").innerText = dataThatComesFromBackEnd.text1;
+			},
+			error: (request, error) => {
+				"don't know if this works this way, remember to try to use arrow functions in ajax later"
+			}
+		});
+	}
+}
+</script>
+
+of course we should remember ajax has a bunch of parameters we can use to custom our request, check it out right here: https://api.jquery.com/jquery.ajax/
+
+always use this on MVC - jquery makes it easier to build requests than use asp-controller directive in forms.
+
+we can use jQuery methods with ajax, like done method for instance.
+
+
+understanding middlewares:
+
+well, i very often use middlewares configs like cors enable in my c# dotnet APIs, but what is the exact concept of this term?
+
+
+
+
