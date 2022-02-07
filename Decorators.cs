@@ -1,6 +1,0 @@
-namespace general.Decorators 
-{
-
-	publi
-
-}
