@@ -36,6 +36,3 @@ This is a small repo I built for store my study material, you can try to use it,
 		</tr>
 	</tbody>
 </table>
-
-[RELATORIO - JV E ELBERT - bkp.docx](https://github.com/vicdant1/general-topics-study/files/8028994/RELATORIO.-.JV.E.ELBERT.-.bkp.docx)
-
