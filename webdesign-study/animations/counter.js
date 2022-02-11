@@ -1,0 +1,1 @@
+var counter = new PureCounter();

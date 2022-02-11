@@ -28,3 +28,18 @@
 }
 
 
+.counters{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(64, 180, 64);
+  padding: 2rem;
+  border-radius: 30px;
+}
+
+.counters span{
+  font-size: 36px;
+  display: inline-block;
+  font-weight: 600;
+  color: #0b198f;
+}
