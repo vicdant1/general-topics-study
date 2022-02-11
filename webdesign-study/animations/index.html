@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
     <title>Animations</title>
   </head>
   <body>
@@ -26,7 +27,7 @@
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
+            <a href="#img-1" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
           </div>
         </div>
@@ -36,7 +37,7 @@
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
+            <a href="#img-2" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
           </div>
         </div>
@@ -46,7 +47,7 @@
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
+            <a href="#img-3" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
           </div>
         </div>
@@ -58,7 +59,7 @@
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
+            <a href="#img-4" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
           </div>
         </div>
@@ -68,17 +69,21 @@
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
+            <a href="#img-5" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-          <div class="card-body">
+          <div class="card-body typed-card">
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
+            <div id="card-text-typed">
+              <p>Some <b>lalala</b> quick^300 example text to <i>hehehe</i> build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <span id="teste-card"></span>
+            <br>
+            <a href="#img-6" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
           </div>
         </div>
@@ -93,17 +98,45 @@
         <p>Typed.js is a <strong>JavaScript</strong> library.</p>
         <p>It <em>^1000types</em> out sentences.</p>
       </div>
+
+      
+
       <div class="abluble">
         <span id="typed"></span>
       </div>
 
+
+
       <br>
       <br>
+
+      <br><br><br><br>
+
+      <div class="row gy-3">
+        <img id="img-1" src="./img/davas.jpg" class="img-fluid col-md-6 headline">
+        <img id="img-2" src="./img/davas.jpg" class="img-fluid col-md-6 tagline">
+        <img id="img-3" src="./img/davas.jpg" class="img-fluid col-md-6 tagline">
+        <img id="img-4" src="./img/davas.jpg" class="img-fluid col-md-6 headline">
+        <img id="img-5" src="./img/davas.jpg" class="img-fluid col-md-6 tagline">
+        <img id="img-6" src="./img/davas.jpg" class="img-fluid col-md-6 headline">
+      </div>
+
+      <br><br>
+      
+
+      <a href="#">
+        <div class="btn btn-danger">Back to top</div>
+      </a>
+
+      <br><br>
+      
+
+
 
     </div>
     </div>
 
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -116,6 +149,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="./type_mod.js" type="module"></script>
+    <script src="./scrollReveal.js"></script>
+    <script src="./smoothScroll.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

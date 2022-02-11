@@ -21,3 +21,8 @@ var typed2 = new Typed('#typed', {
   stringsElement: '#typed-strings',
   loop: true,
 }); 
+
+var type3 = new Typed('#teste-card', {
+  stringsElement: '#card-text-typed',
+  typeSpeed: 20
+});

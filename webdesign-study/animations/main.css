@@ -10,4 +10,8 @@
 .abluble {
   font-size: 2rem !important;
 }
+
+#teste-card {
+  min-height: 96px !important;
+}
 /*# sourceMappingURL=main.css.map */
