@@ -18,4 +18,5 @@ This is a small repo I built for store my study material, you can try to use it,
 	<li>Images on footer</li>
 	<li>Breadcrumbs</li>
 	<li>Beauty forms</li>
+	<li>Transitions</li>
 </ul>
