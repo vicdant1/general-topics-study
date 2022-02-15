@@ -32,7 +32,7 @@ This is a small repo I built for store my study material, you can try to use it,
 		</tr>
 		<tr>
 			<td>General</td>
-			<td>AdonisJS, Flask, C# basic syntax, Express,  Git, CSS and HTTP Concepts, Sass, Animation with CSS, TypeScript on React/Vue projects, Java, Spring, etc.</td>
+			<td>C# basic syntax, Git, CSS and HTTP Concepts, Sass, Animation with CSS, TypeScript on React/Vue projects, Java, Spring, etc.</td>
 		</tr>
 	</tbody>
 </table>
