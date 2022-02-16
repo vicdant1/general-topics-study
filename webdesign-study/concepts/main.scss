@@ -1,0 +1,21 @@
+.general-section{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  color: #FFF ;
+}
+
+.carousel-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-container .carousel{
+  max-width: 600px;
+}
+
+.carousel-container img {
+  opacity: .65;
+  
+}
