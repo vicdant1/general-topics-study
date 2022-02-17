@@ -1,9 +1,3 @@
-*{
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box;
-}
-
 .general-section{
   position: relative;
   width: 100%;
@@ -27,6 +21,10 @@
 }
 
 .svgInicio{
+  *{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
   z-index: 0;
   svg{
     position: absolute;
@@ -35,3 +33,26 @@
     z-index: -1;
   }
 }
+
+.sizingSvg{
+  transform: scaleY(.8);
+  transform-origin: bottom;
+}
+
+.entry-section{
+  min-height: 600px;
+  z-index: 0;
+  position: relative;
+  background-color: rgb(219, 219, 219);
+  *{
+    z-index: 1;
+  }
+  svg{
+    position: absolute;
+    width: 20%;
+    left: 30px;
+    z-index: 0;
+    top: 5px;
+  }
+}
+
