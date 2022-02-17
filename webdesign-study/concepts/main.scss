@@ -1,7 +1,13 @@
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
 .general-section{
   position: relative;
   width: 100%;
-  height: 500px;
+  min-height: 500px;
   color: #FFF ;
 }
 
@@ -18,4 +24,14 @@
 .carousel-container img {
   opacity: .65;
   
+}
+
+.svgInicio{
+  z-index: 0;
+  svg{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -1% !important;
+    z-index: -1;
+  }
 }
