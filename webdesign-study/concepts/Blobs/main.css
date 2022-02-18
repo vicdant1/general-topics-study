@@ -75,3 +75,42 @@
     transform: scaleY(.6);
     transform-origin: bottom;
 }
+
+
+.svg_background{
+    background-image: url("./blob.svg");
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.content-div{
+    z-index: 10;
+}
+
+.backdiv{
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(0, 143, 136);
+}
+
+#svggdt{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
