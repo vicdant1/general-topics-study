@@ -63,6 +63,25 @@
   height: auto;
 }
 
+.grid-container{
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr) 150px;
+  gap: 5px;
+  
+  /*items*/
+
+  justify-items: center;
+  align-items: center;
+
+  /* entire grid */
+
+  /* justify-content: start;
+  align-content: end; */
+
+}
+
 
 
 
