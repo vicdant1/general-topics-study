@@ -1,0 +1,81 @@
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.flex-container{
+  background-color: #333333;
+  min-height: 500px;
+}
+
+.item{
+  width: 200px;
+  min-height: 100px;
+  border-radius: 30px;
+}
+
+.sflex-grow-1{
+  flex-grow: 1;
+}
+
+.sflex-grow-2{
+  flex-grow: 2;
+}
+
+.salign-self-bottom{
+  align-self: end;
+}
+
+.salign-self-top{
+  align-self: flex-start;
+}
+
+.salign-self-strech{
+  align-self: stretch;
+}
+
+.sshrink-1{
+  flex-shrink: 3;
+}
+
+.aspect{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.aspect > iframe{
+  aspect-ratio: 1/1;
+  min-width: 400px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
