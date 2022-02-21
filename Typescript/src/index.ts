@@ -212,28 +212,3 @@ strArr.push("abluble");
 numArr.push(1);
 
 // pretty the same we use it in c#
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
