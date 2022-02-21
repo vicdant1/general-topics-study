@@ -64,3 +64,5 @@ function log(message) {
 }
 log(32);
 log("32");
+const add = (x, y) => x + y;
+const sub = (x, y) => x - y;

@@ -133,7 +133,26 @@ function log(message:number|string):void{
 log(32);
 log("32");
 
+// Interfaces
 
+// works in a similar way to describe objects, but doesn't works as a primitive type, however, it will work with functions as well as props. It will complain if something is missing
+
+interface UserInterface{
+  readonly id: number,
+  name: string,
+  age?: number
+}
+
+// ? turns some prop into an optional param, readonly allow us just to read the data, not set it again
+
+// we can use interfaces with functions:
+
+interface MathFunc{
+  (x:number, y:number):number;
+}
+
+const add:MathFunc = (x:number, y:number):number => x+y; 
+const sub:MathFunc = (x, y) => x-y;
 
 
 
