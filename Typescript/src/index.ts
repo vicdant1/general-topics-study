@@ -154,7 +154,37 @@ interface MathFunc{
 const add:MathFunc = (x:number, y:number):number => x+y; 
 const sub:MathFunc = (x, y) => x-y;
 
+interface PersonInterface{
+  id:number,
+  name:string,
+  register():string
+}
 
+// Classes
+
+class Person implements PersonInterface{
+  // we can have access modifiers here such as public, private or protected
+  id: number;
+  name: string;
+
+  constructor(id:number, name:string){
+    // we can have methods running inside the constructor, everytime a person is created, the constructor will be running everything is inside of it.
+    this.id = id;
+    this.name = name;
+  }
+
+  // creating methods in this classe:
+
+  register(): string{
+    return `${this.name} is now registred`;
+  }
+
+}
+
+const brad = new Person(1, "Brad");
+const mike = new Person(2, "Mike");
+
+console.log(brad.register());
 
 
 

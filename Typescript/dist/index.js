@@ -66,3 +66,18 @@ log(32);
 log("32");
 const add = (x, y) => x + y;
 const sub = (x, y) => x - y;
+// Classes
+class Person {
+    constructor(id, name) {
+        // we can have methods running inside the constructor, everytime a person is created, the constructor will be running everything is inside of it.
+        this.id = id;
+        this.name = name;
+    }
+    // creating methods in this classe:
+    register() {
+        return `${this.name} is now registred`;
+    }
+}
+const brad = new Person(1, "Brad");
+const mike = new Person(2, "Mike");
+console.log(brad.register());
