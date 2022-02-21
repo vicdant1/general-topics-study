@@ -61,6 +61,62 @@ enum DirectionTwo{
 
 console.log(DirectionTwo.Down);
 
+// Objects
+
+/*
+const user = {
+  id: 1,
+  name: 'John'
+}
+I can assert some of the types using a new object or creating a type, it sounds like this:
+
+const user:{
+  id: number,
+  name: string
+} = {
+  id: 1,
+  name: "john"
+}
+
+if i miss any of these types, ts will complain about it
+
+it is a lot of messy, so i will create a type called user to help this.
+
+type User = {
+  id: number,
+  name: string
+}
+
+then I'll make my new object into this type
+
+const user:User = {
+  id: 1,
+  name: 'John'
+}
+
+again, if I miss any of these types, ts will complain about it
+
+*/
+
+type User = {
+  id: number,
+  name: string
+}
+
+const user:User = {
+  id: 1,
+  name: 'John'
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

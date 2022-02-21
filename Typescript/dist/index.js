@@ -43,3 +43,7 @@ var DirectionTwo;
     DirectionTwo["Right"] = "Right.txt";
 })(DirectionTwo || (DirectionTwo = {}));
 console.log(DirectionTwo.Down);
+const user = {
+    id: 1,
+    name: 'John'
+};
