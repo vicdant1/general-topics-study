@@ -120,6 +120,21 @@ let costumerId = cid as number;
 
 // Functions
 
+function addNum(x: number, y: number):number{
+  return x+y;
+}
+
+console.log(addNum(1, 2));
+
+function log(message:number|string):void{
+  console.log(message);
+}
+
+log(32);
+log("32");
+
+
+
 
 
 

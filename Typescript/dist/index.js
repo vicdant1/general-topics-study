@@ -55,3 +55,12 @@ let cid = 1;
 let costumerId = cid;
 // costumerId = '1'; -> complaining about type
 // Functions
+function addNum(x, y) {
+    return x + y;
+}
+console.log(addNum(1, 2));
+function log(message) {
+    console.log(message);
+}
+log(32);
+log("32");
