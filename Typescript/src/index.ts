@@ -108,7 +108,17 @@ const user:User = {
   name: 'John'
 }
 
+// type assertion
 
+let cid:any = 1;
+// let costumerId = <number> cid;
+// costumerId = '1'; -> complaining about type
+// another way to do this, is using the "as" keyword
+let costumerId = cid as number;
+
+// costumerId = '1'; -> complaining about type
+
+// Functions
 
 
 

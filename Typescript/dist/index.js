@@ -47,3 +47,11 @@ const user = {
     id: 1,
     name: 'John'
 };
+// type assertion
+let cid = 1;
+// let costumerId = <number> cid;
+// costumerId = '1'; -> complaining about type
+// another way to do this, is using the "as" keyword
+let costumerId = cid;
+// costumerId = '1'; -> complaining about type
+// Functions
