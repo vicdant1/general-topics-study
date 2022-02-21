@@ -186,6 +186,20 @@ const mike = new Person(2, "Mike");
 
 console.log(brad.register());
 
+// Inheritance -> superclasses and subclasses
+
+class Employee extends Person{
+  position: string
+  
+  constructor(id:number, name:string, position:string){
+    super(id, name),
+    this.position = position;
+  }
+}
+
+const emp = new Employee(1, "John", "Developer");
+
+
 
 
 
