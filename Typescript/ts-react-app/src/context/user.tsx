@@ -36,4 +36,3 @@ export const useUserContext = () => {
   const context = useContext(UserContext);
   return context;
 }
-
