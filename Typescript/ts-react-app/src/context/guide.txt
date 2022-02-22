@@ -1,0 +1,63 @@
+In this case, it do NOT look like create an appDbContext in ASP.NET Core;
+
+To create a context of an application, we should follow this steps:
+
+1 - Type the shape of the data you want to put in the state:
+  type UserType = {
+    name:string,
+    email:string,
+    password:string
+  };
+
+  This will be the shape of the information you want to share with all application, always try to use lots of contexts for application, tsx turns it more difficult than it is in jsx;
+
+2 - Type the props you are going to pass through the context constructor:
+  type PropsUserContext = {
+    state:UserType,
+    setState:React.Dispatch<React.SetStateAction<UserType>>
+  };
+
+  I'll try to always use this approach, just because it turns easier to build things with useState, btw I'll remember to check out about useReducer hook
+
+3 - Create a default value for the context:
+  const contextDefaultValue = {
+    state:{
+      name:"Abluble",
+      email:"abluble@abluble.com",
+      password:"1d231ad231da"
+    },
+    setState:() => {}
+  };
+
+  I used the state object to describe how this data is going to be. The same for setState, since it is a function
+
+4 - Create a instance of the context:
+  const UserContext = createContext<PropsUserContext>(contextDefaultValue);
+
+  I used the create function with PropsUserContext type because it will describe how my data should be
+
+5 - Create a wrapper (Provider):
+  export const UserContextProvider:React.FC = ({children}) => {
+    const [state, setState] = useState(contextDefaultValue.state)
+    return(
+      <UserContext.Provider value={{state, setState}}>
+        {children}
+      </UserContext.Provider>
+    )
+  }
+
+  this is going to be exported because we will wrap some part of the application inside of this provider, then we will have access to this information.
+
+  children prop is fundamental to make this component works
+
+  everything that is inside of value prop will be visible to children components
+
+  I created a state to deal with this data
+
+6 - Create a custom hook to use this context:
+  export const useUserContext = () => {
+    const context = useContext(UserContext);
+    return context;    
+  }
+
+  using this apporach i'll never have to import useContext function to each part of the application

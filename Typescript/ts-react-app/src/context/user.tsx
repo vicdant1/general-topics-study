@@ -13,9 +13,9 @@ type PropsUserContext = {
 
 const contextDefaultValue = {
   state:{
-    name:"",
-    email:"",
-    password:""
+    name:"Abluble",
+    email:"abluble@abluble.com",
+    password:"1d231ad231da"
   },
   setState:() => {}
 };
@@ -34,16 +34,6 @@ export const UserContextProvider:React.FC = ({children}) => {
 
 export const useUserContext = () => {
   const context = useContext(UserContext);
+  return context;
 }
-
-
-
-
-
-
-
-
-
-
-
 
