@@ -1,16 +1,21 @@
 import React from 'react';
-import Header from './Header';
-import { UserContextProvider } from './context/user';
-import Body from './Body';
+import InputField from './components/InputField';
+// import Header from './Header';
+// import { UserContextProvider } from './context/user';
+// import Body from './Body';
 
-function App() {
+const App:React.FC = () => {
   return (
-    <UserContextProvider>
-      <div className="App">
-        <Header title='Abluble' color='#333333'/>
-        <Body/>
-      </div>
-    </UserContextProvider>
+    // <UserContextProvider>
+    //   <div className="App">
+    //     <Header title='Abluble' color='#333333'/>
+    //     <Body/>
+    //   </div>
+    // </UserContextProvider>
+    <div className="App">
+      <span className="heading">Taskify</span>
+      <InputField/>
+    </div>
   );
 }
 
