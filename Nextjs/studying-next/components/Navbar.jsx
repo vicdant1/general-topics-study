@@ -21,6 +21,10 @@ export default function Navbar() {
       <Link href="/ninjas">
         <a>Ninja Listing</a>
       </Link>
+
+      <Link href="/comments">
+        <a>Comments</a>
+      </Link>
     </nav>
   );
 }
