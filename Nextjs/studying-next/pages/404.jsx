@@ -11,7 +11,7 @@ export default function NotFound() {
       // router.go()
       router.push('/');
     }, 3000);
-  }, []);
+  }, [router]);
 
   return (
     <>
