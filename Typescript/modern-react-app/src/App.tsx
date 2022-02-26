@@ -5,8 +5,10 @@ import {Cta, Brand, Navbar} from './components'
 import './App.css'
 import './index.css'
 
+
 function App() {
   return (
+    https://www.youtube.com/watch?v=LMagNcngvcU&t=1886s&ab_channel=JavaScriptMastery -> retomar em 1:38:00h
     <div className="App">
       <div className="gradient__bg">
         <Navbar/>
