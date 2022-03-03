@@ -24,7 +24,7 @@ This is a small repo I built for store my study material, you can try to use it,
 		</tr>
 		<tr>
 			<td>DotNet</td>
-			<td>.NET Core, .NET 5^, EF Core, ASP.NET MVC, Repository pattern on Dotnet</td>
+			<td>.NET Core, .NET 5^, EF Core, ASP.NET MVC, Classic aspx, Repository pattern on Dotnet</td>
 		</tr>
 		<tr>
 			<td>Databases</td>
