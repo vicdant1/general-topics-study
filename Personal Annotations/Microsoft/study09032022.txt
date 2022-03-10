@@ -1,0 +1,90 @@
+* the aspnet mvc binds views through it's controller's name.
+
+[HttpPost]
+public async Task<IActionResult> Details(int? id)
+{
+	var details = await _dataService.GetDetailsAsync();
+	
+	return View(details);
+}
+
+Details.cshmtl:
+
+@model Models.Detail
+
+<>
+@foreach(var item in Model)
+
+{
+	<div>@item.name</div>
+}
+</>
+
+* when dealing with forms, try to always use [ValidateAntiForgeryKey]/[ValidateAntiForgeryToken] data annotations. It turns on a validation between front-end and back-end, in the front, the form give a token wich has to match with the back-end one, if someone try to make some request to this endpoint and this person is not on the application, there will be no token to recieve, then it wont works.
+
+* differences between Razor and Blazor
+
+Razor is the ViewEngine of the ASP.NET enviroment, it is basiclly that syntax with at (@) wich allow us to mix c# code and html.
+
+There are a lot of useful method that comes from Razor, such as methods to raw html, give an action url since you have params, etc.
+
+Blazor is a complete different stuff, with this tool we can build webapps using c# code instead of Javascript. We can build apps with server side or web assembly. (webassembly or "WASM" is a way to run powerful native apps on browser, figma is an absolutly good example). It is possible to build PWAs and SPAs with Blazor.
+
+* A little bit of dependecy injection
+
+A dependecy is an object that is used in another places or contexts. You can init an instance of a class and make it a dependecy like so:
+
+namespace Controllers.BankController
+{	
+	[ApiController]
+	[Route("/api/[controller]")]
+	public class BankController : ControllerBase
+	{
+		AccountService _dependecy = new AccountService()
+		public BankController()
+		{
+		
+		}
+		
+		[HttpGet("{bankId}")]
+		public async Task<IActionResult> GetAccounts(int bankId)
+		{
+			List<Accounnts> accounts = await _dependecy.GetAccountsAsync(bankId);
+			return accounts;
+		}
+	}
+}
+
+we have some problems here, ok it will work once or twice, but this way it is hard to implement tests. Beyond that, we have to look at the instance, in this case we have no dependecies in AccountService, but if we do? Will we have to pass each dependecy in places that uses this services? Yeah, you will.
+
+but because god is awesome, smart people built a scheme to use dependecy injection in the right way,  I mean, registering on the lifecycle of the application the service using builder.Services.AddScoped<>() || .AddSingleton<>(); || .AddTransient<>();
+
+
+* MVC Code generated based on model:
+
+when we create a model and dbconnection with EF we can build the views through the controllers, we just writte the correct methods there and generate the views for each kind of method we have, as well as crud sounds like.
+
+and yet on MVC, we can make requests using Asynchrounos Javascript And XML (AJAX). Passing the parametters through query if it is a GET route, or using data object for post.
+
+We can decorate the controller parametters with [FromBody] and pass information like so in ajax:
+
+$.ajax({
+
+	// abluble
+	// abluble
+	// abluble
+
+	body: {
+		id: 301,
+		name: "Abluble Blublu",
+		etc...
+	}
+});
+
+
+
+
+
+
+
+
