@@ -1,0 +1,15 @@
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\bin\Debug\net6.0\CleanArchMVC.Application.deps.json
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\bin\Debug\net6.0\CleanArchMVC.Application.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\bin\Debug\net6.0\ref\CleanArchMVC.Application.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\bin\Debug\net6.0\CleanArchMVC.Application.pdb
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\obj\Debug\net6.0\CleanArchMVC.Application.csproj.AssemblyReference.cache
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\obj\Debug\net6.0\CleanArchMVC.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\obj\Debug\net6.0\CleanArchMVC.Application.AssemblyInfoInputs.cache
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\obj\Debug\net6.0\CleanArchMVC.Application.AssemblyInfo.cs
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\obj\Debug\net6.0\CleanArchMVC.Application.csproj.CoreCompileInputs.cache
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\obj\Debug\net6.0\CleanArchMVC.Application.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\obj\Debug\net6.0\ref\CleanArchMVC.Application.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\obj\Debug\net6.0\CleanArchMVC.Application.pdb
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\bin\Debug\net6.0\CleanArchMVC.Domain.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\bin\Debug\net6.0\CleanArchMVC.Domain.pdb
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Application\obj\Debug\net6.0\CleanArchMVC.Application.csproj.CopyComplete

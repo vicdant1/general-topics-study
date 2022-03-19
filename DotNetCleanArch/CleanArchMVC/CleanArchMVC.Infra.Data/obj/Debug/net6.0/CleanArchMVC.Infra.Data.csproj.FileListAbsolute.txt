@@ -1,0 +1,15 @@
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\bin\Debug\net6.0\CleanArchMVC.Infra.Data.deps.json
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\bin\Debug\net6.0\CleanArchMVC.Infra.Data.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\bin\Debug\net6.0\ref\CleanArchMVC.Infra.Data.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\bin\Debug\net6.0\CleanArchMVC.Infra.Data.pdb
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net6.0\CleanArchMVC.Infra.Data.csproj.AssemblyReference.cache
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net6.0\CleanArchMVC.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net6.0\CleanArchMVC.Infra.Data.AssemblyInfoInputs.cache
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net6.0\CleanArchMVC.Infra.Data.AssemblyInfo.cs
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net6.0\CleanArchMVC.Infra.Data.csproj.CoreCompileInputs.cache
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net6.0\CleanArchMVC.Infra.Data.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net6.0\ref\CleanArchMVC.Infra.Data.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net6.0\CleanArchMVC.Infra.Data.pdb
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\bin\Debug\net6.0\CleanArchMVC.Domain.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\bin\Debug\net6.0\CleanArchMVC.Domain.pdb
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net6.0\CleanArchMVC.Infra.Data.csproj.CopyComplete

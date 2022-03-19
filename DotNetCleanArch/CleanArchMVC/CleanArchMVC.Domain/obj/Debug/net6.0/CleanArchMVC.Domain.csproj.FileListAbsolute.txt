@@ -1,0 +1,12 @@
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\bin\Debug\net6.0\CleanArchMVC.Domain.deps.json
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\bin\Debug\net6.0\CleanArchMVC.Domain.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\bin\Debug\net6.0\ref\CleanArchMVC.Domain.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\bin\Debug\net6.0\CleanArchMVC.Domain.pdb
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.csproj.AssemblyReference.cache
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.AssemblyInfoInputs.cache
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.AssemblyInfo.cs
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.csproj.CoreCompileInputs.cache
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\ref\CleanArchMVC.Domain.dll
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.pdb
