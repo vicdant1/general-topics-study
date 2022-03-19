@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDotnetApplication", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCRandomProject", "MVCRandomProject\MVCRandomProject.csproj", "{6858903A-393F-469C-84DF-CED3A7B25099}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomConsoleApp", "RandomConsoleApp.csproj", "{02AC72D0-5E0E-4588-A1AB-AF38B4B77D72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{6858903A-393F-469C-84DF-CED3A7B25099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6858903A-393F-469C-84DF-CED3A7B25099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6858903A-393F-469C-84DF-CED3A7B25099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02AC72D0-5E0E-4588-A1AB-AF38B4B77D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AC72D0-5E0E-4588-A1AB-AF38B4B77D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AC72D0-5E0E-4588-A1AB-AF38B4B77D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AC72D0-5E0E-4588-A1AB-AF38B4B77D72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
