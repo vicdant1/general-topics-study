@@ -1,0 +1,5 @@
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\publish\Proj1.exe
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\publish\Proj1.dll
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\publish\Proj1.deps.json
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\publish\Proj1.runtimeconfig.json
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\publish\Proj1.pdb
