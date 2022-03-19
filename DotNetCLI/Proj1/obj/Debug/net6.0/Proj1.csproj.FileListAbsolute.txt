@@ -1,0 +1,15 @@
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\Proj1.exe
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\Proj1.deps.json
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\Proj1.runtimeconfig.json
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\Proj1.dll
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\ref\Proj1.dll
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\bin\Debug\net6.0\Proj1.pdb
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\obj\Debug\net6.0\Proj1.csproj.AssemblyReference.cache
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\obj\Debug\net6.0\Proj1.GeneratedMSBuildEditorConfig.editorconfig
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\obj\Debug\net6.0\Proj1.AssemblyInfoInputs.cache
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\obj\Debug\net6.0\Proj1.AssemblyInfo.cs
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\obj\Debug\net6.0\Proj1.csproj.CoreCompileInputs.cache
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\obj\Debug\net6.0\Proj1.dll
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\obj\Debug\net6.0\ref\Proj1.dll
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\obj\Debug\net6.0\Proj1.pdb
+D:\_projetos\general-topics-study\DotNetCLI\Proj1\obj\Debug\net6.0\Proj1.genruntimeconfig.cache
