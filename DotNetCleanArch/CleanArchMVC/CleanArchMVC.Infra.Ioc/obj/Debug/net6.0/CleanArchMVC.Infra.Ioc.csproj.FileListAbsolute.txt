@@ -17,3 +17,5 @@ D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infr
 D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Ioc\bin\Debug\net6.0\CleanArchMVC.Domain.pdb
 D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Ioc\bin\Debug\net6.0\CleanArchMVC.Infra.Data.pdb
 D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Ioc\obj\Debug\net6.0\CleanArchMVC.Infra.Ioc.csproj.CopyComplete
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Ioc\bin\Debug\net6.0\CleanArchMVC.Infra.Ioc.runtimeconfig.json
+D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.Infra.Ioc\obj\Debug\net6.0\CleanArchMVC.Infra.Ioc.genruntimeconfig.cache
