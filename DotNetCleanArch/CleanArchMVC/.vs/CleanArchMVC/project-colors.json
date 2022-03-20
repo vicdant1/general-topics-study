@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0380841b-0015-441d-86b5-0ad346a653f3": {
+      "ProjectGuid": "0380841b-0015-441d-86b5-0ad346a653f3",
+      "DisplayName": "CleanArchMVC.Domain",
+      "ColorIndex": 0
+    },
+    "7cdc602b-6efb-4ce0-93b8-5514b911fe22": {
+      "ProjectGuid": "7cdc602b-6efb-4ce0-93b8-5514b911fe22",
+      "DisplayName": "CleanArchMVC.Application",
+      "ColorIndex": 1
+    },
+    "e23fccee-ae96-4e3c-a19b-036f23b2d354": {
+      "ProjectGuid": "e23fccee-ae96-4e3c-a19b-036f23b2d354",
+      "DisplayName": "CleanArchMVC.Infra.Data",
+      "ColorIndex": 2
+    },
+    "085ec862-12b5-4a9c-b74f-3fa651e0959e": {
+      "ProjectGuid": "085ec862-12b5-4a9c-b74f-3fa651e0959e",
+      "DisplayName": "CleanArchMVC.Infra.Ioc",
+      "ColorIndex": 3
+    },
+    "742f6cc8-54fa-4805-a01f-f7012611b924": {
+      "ProjectGuid": "742f6cc8-54fa-4805-a01f-f7012611b924",
+      "DisplayName": "CleanArchMVC.WebUI",
+      "ColorIndex": 4
+    },
+    "63e59aee-344c-41d3-b6d8-f82983933588": {
+      "ProjectGuid": "63e59aee-344c-41d3-b6d8-f82983933588",
+      "DisplayName": "CleanArchMVC.Domain.Tests",
+      "ColorIndex": 5
+    },
+    "9b9de347-3252-423c-8659-3c36deeba5c2": {
+      "ProjectGuid": "9b9de347-3252-423c-8659-3c36deeba5c2",
+      "DisplayName": "CleanArchMVC.Domain.Tests",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 7
+}

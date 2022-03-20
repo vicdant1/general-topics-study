@@ -18,4 +18,36 @@ namespace CleanArchMVC.Infra.Data.EntitiesConfiguration
             );
         }
     }
+
+    /*
+    
+    Example of creating basemap class, in bigger applications it could be useful.
+
+    public class BaseMap<T> : IEntityTypeConfiguration<T> where T : EntityBase
+    {
+        string _tableName;
+        public BaseMap(string tableName)
+        {
+            _tableName = tableName;
+        }
+
+        public virtual void Configure(EntityTypeBuilder<T> builder)
+        {
+            builder.HasKey(t => t.Id);
+            builder.ToTable(_tableName);
+        }
+    }
+
+    public class CategoryConfigurationExample : BaseMap<Category>
+    {
+        public CategoryConfigurationExample(string tableName) : base(tableName) { }
+
+        public override void Configure(EntityTypeBuilder<Category> builder)
+        {
+            base.Configure(builder);
+
+            builder.Property(c => c.Name).HasColumnName("nAmEtOtAbLe");
+        }
+    }
+    */
 }
