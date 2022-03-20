@@ -44,7 +44,7 @@ namespace CleanArchMVC.Domain.Tests
 
             action.Should()
                   .Throw<Validation.DomainExceptionValidation>()
-                  .WithMessage("Name is required.");
+                  .WithMessage("Name is required");
         }
 
         [Fact(DisplayName = "CreateCategoryWithNullNameValue")]
