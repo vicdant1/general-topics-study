@@ -1,0 +1,74 @@
+creating extension methods
+
+namespace CleanArchMVC.Infra.IoC
+{
+
+	public static class ExtensionServices
+	{
+		public static IServiceCollection AddServices(this IServiceCollection services, IConfiguration config)
+		{
+			services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(
+				config.GetConnectionString("defaultConnection"),
+				b => b.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName)
+			));
+
+			services.AddScoped<IRepo, Repo>();
+			services.AddScoped<IRepo, Repo>();
+			services.AddScoped<IRepo, Repo>();
+
+			services.AddAutoMapper(
+				typeof(Entity1Profile),
+				typeof(Entity2Profile),
+				typeof(Entity3Profile)
+			);
+		}
+	}
+
+}
+
+
+namespace CleanArchMVC.Application.Helpers
+{
+
+	public class EntityMapper : Profile
+	{
+		public EntityMapper()
+		{
+			CreateMap<EntityB, EntityA>();
+			
+			CreateMap<EntityA, EntityZ>()
+				.ForMember(dest => dest.PropDestino, opt => opt.MapFrom(src => src.PropRaiz));
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
