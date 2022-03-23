@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rMP4x0dd+msRU+SIVnFWvEyaVqvaNbpKWjSoqlslGGQGF4Kr5NF8sPTiMlDm2oQHfFSnkoWOD3IDRs8To61WZg==",
+  "dgSpecHash": "aNcwZojatl80tqVVYyqZMimuO/g/jX+4RaUJqTWctLcob9mzKEZoNfMhGh/t0wnwYDlu+XX6E6HSAgnsvLyOzA==",
   "success": true,
   "projectFilePath": "D:\\_projetos\\general-topics-study\\DotNetCleanArch\\CleanArchMVC\\CleanArchMVC.Infra.Ioc\\CleanArchMVC.Infra.Ioc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dantj\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\dantj\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\dantj\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\dantj\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\dantj\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\dantj\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\dantj\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\dantj\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",

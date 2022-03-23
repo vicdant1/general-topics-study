@@ -1,0 +1,64 @@
+Criação de camada application
+- services
+- iservices
+- dtos
+- mapping
+
+mapping pode ser manual ou automapper
+
+para usar automapper instalar AutoMapper e AutoMapperDependecyInjection
+
+> new folder Profiles
+> add profiles there
+> register profiles in services
+
+Profiles
+    - EntityMapperProfile.cs
+
+services.AddAutoMapper(typeof(EntityMapperProfile1.cs), typeof(EntityMapperProfile2.cs), typeof(EntityMapperProfile3.cs));
+
+creating extension method to register services on Infra.IoC layer:
+
+
+namespace CleanArchMVC.Infra.IoC
+{
+
+	public static IServicesCollection AddServices(this IServicesCollection services, IConfiguration config)
+	{
+		services.AddAutoMapper(typeof(Profile));
+		services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlServer(
+			config.GetConnectionString("defaultConnection"),
+			b => MigrationsAssembly(typeof(AppDbContext).Assembly.FullName)
+		
+		));
+	}
+	
+	return services;
+}
+
+O automapper dependecy injection disponibilizará IMapper para realizar a inversão de controle (desacoplar projetos)
+
+Classes profile:
+
+namespace CleanArchMVC.Application.Profiles
+{
+	public class EntityProfile : Profile
+	{
+		public EntityProfile()
+		{
+			CreateMap<EntityA, EntityB>();
+
+			CreateMap<EntityB, EntityC>()
+				.ForMember(dest => dest.Field, opt => opt.MapFrom(src => src.Field));
+		}
+	}
+}
+
+public class EmployeesController {
+	private readonly IMapper _mapper;
+
+	public EmployeesController(IMapper mapper) => _mapper = mapper;
+
+	// use _mapper.Map or _mapper.ProjectTo
+}
+

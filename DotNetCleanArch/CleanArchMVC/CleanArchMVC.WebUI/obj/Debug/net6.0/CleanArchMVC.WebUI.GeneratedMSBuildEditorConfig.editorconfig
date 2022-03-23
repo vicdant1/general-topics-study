@@ -15,12 +15,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\_projetos\general-topics-study\DotNetCleanArch\CleanArchMVC\CleanArchMVC.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/_projetos/general-topics-study/DotNetCleanArch/CleanArchMVC/CleanArchMVC.WebUI/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/_projetos/general-topics-study/DotNetCleanArch/CleanArchMVC/CleanArchMVC.WebUI/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/_projetos/general-topics-study/DotNetCleanArch/CleanArchMVC/CleanArchMVC.WebUI/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/_projetos/general-topics-study/DotNetCleanArch/CleanArchMVC/CleanArchMVC.WebUI/Views/Shared/Error.cshtml]

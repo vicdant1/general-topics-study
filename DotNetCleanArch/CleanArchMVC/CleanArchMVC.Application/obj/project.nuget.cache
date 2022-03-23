@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BjWdVtBZK02yMBWRxM4G+YDezMZkyDjfy7/tsa/vIiDLrupAHU9sDSUBBVqikVWiAIIuBzX3Sw4w92e7LdcvEQ==",
+  "dgSpecHash": "BJjY50USLR+njxGZ0q83mV5g2AjjNgr8tivrUkUomGw7GhzLmok9ELc1wcEHdSUGjGAODbO7dijEiK8RXA6oQA==",
   "success": true,
   "projectFilePath": "D:\\_projetos\\general-topics-study\\DotNetCleanArch\\CleanArchMVC\\CleanArchMVC.Application\\CleanArchMVC.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dantj\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\dantj\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
