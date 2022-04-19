@@ -4,6 +4,170 @@
     "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Infra.IoC/Infra.IoC.csproj": {}
   },
   "projects": {
+    "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Application/Application.csproj",
+        "packagesPath": "/home/vic_dant1/.nuget/packages/",
+        "outputPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vic_dant1/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Domain/Domain.csproj": {
+                "projectPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Domain/Domain.csproj",
+        "packagesPath": "/home/vic_dant1/.nuget/packages/",
+        "outputPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vic_dant1/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Infra.Data/Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Infra.Data/Infra.Data.csproj",
+        "projectName": "Infra.Data",
+        "projectPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Infra.Data/Infra.Data.csproj",
+        "packagesPath": "/home/vic_dant1/.nuget/packages/",
+        "outputPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vic_dant1/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Domain/Domain.csproj": {
+                "projectPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Infra.IoC/Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +189,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Application/Application.csproj": {
+                "projectPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Application/Application.csproj"
+              },
+              "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Domain/Domain.csproj": {
+                "projectPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Domain/Domain.csproj"
+              },
+              "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Infra.Data/Infra.Data.csproj": {
+                "projectPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Infra.Data/Infra.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
