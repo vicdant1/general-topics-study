@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lPvi4xnwvUk7gJkfCgSwUJ0sj098JIYga1TjYK5bEEex5KbXluBrO6XeqCgfdwe7XpXeIt5f8ZN0rnMpDdbQog==",
+  "dgSpecHash": "7lIvlNZty3BRtnvX0+4tiJ1GJwudVfL5WHcSyJ3vzDbLKKnx4BuHdH1AArc99+u+9gK+J+SlVdxjY/8jL1l7Uw==",
   "success": true,
-  "projectFilePath": "D:\\_projetos\\general-topics-study\\DotNetCleanArch\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj",
+  "projectFilePath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/CleanArchMVC/CleanArchMVC.Domain/CleanArchMVC.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

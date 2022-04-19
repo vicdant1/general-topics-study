@@ -6118,34 +6118,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dantj\\.nuget\\packages\\": {}
+    "/home/vic_dant1/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_projetos\\general-topics-study\\DotNetCleanArch\\CleanArchMVC\\CleanArchMVC.Domain.Tests\\CleanArchMVC.Domain.Tests.csproj",
+      "projectUniqueName": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/CleanArchMVC/CleanArchMVC.Domain.Tests/CleanArchMVC.Domain.Tests.csproj",
       "projectName": "CleanArchMVC.Domain.Tests",
-      "projectPath": "D:\\_projetos\\general-topics-study\\DotNetCleanArch\\CleanArchMVC\\CleanArchMVC.Domain.Tests\\CleanArchMVC.Domain.Tests.csproj",
-      "packagesPath": "C:\\Users\\dantj\\.nuget\\packages\\",
-      "outputPath": "D:\\_projetos\\general-topics-study\\DotNetCleanArch\\CleanArchMVC\\CleanArchMVC.Domain.Tests\\obj\\",
+      "projectPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/CleanArchMVC/CleanArchMVC.Domain.Tests/CleanArchMVC.Domain.Tests.csproj",
+      "packagesPath": "/home/vic_dant1/.nuget/packages/",
+      "outputPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/CleanArchMVC/CleanArchMVC.Domain.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dantj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/vic_dant1/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\_projetos\\general-topics-study\\DotNetCleanArch\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj": {
-              "projectPath": "D:\\_projetos\\general-topics-study\\DotNetCleanArch\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj"
+            "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/CleanArchMVC/CleanArchMVC.Domain/CleanArchMVC.Domain.csproj": {
+              "projectPath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/CleanArchMVC/CleanArchMVC.Domain/CleanArchMVC.Domain.csproj"
             }
           }
         }
@@ -6200,7 +6198,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }
