@@ -10,4 +10,10 @@
       <ProjectReference Include="..\Domain\Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="DTOs" />
+      <Folder Include="Mapping" />
+      <Folder Include="Services" />
+    </ItemGroup>
+
 </Project>
