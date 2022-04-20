@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "yGeKjVbanF6MEGYnsXJyFNes+iXzCrdwgUb7oG9Lh8/YUycEkrn5QiT/ULuVgtden23i5SWY+Rla3+wDZ579xw==",
+  "dgSpecHash": "vqHSFDj7UDHktEPJafDGiq/xW9KO2IjnhzQ9X3ZLAPAn8lxs2Ron1TSaxMyJfKhnwfcJHT+UU4+lVP2QVMGT5w==",
   "success": true,
   "projectFilePath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/Infra.IoC/Infra.IoC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/vic_dant1/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

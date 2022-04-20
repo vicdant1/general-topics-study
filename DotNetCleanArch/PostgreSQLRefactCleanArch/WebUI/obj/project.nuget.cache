@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "5Ej3f/sxef6A7PBothrg/POtOYsPFIOQCGY9adj/RgULFMJblNFdGhliUsCoDdujkBEQJ8bC54hZcxwTed6FbQ==",
+  "dgSpecHash": "K20W7DMl3oWuqM6ba2gdFNFPD/L0T8iZdw7eWU4SgY+tVE4gKxzJAL/jlOrj/fov8d5zkjtxZucmdE9Ze8eyXw==",
   "success": true,
   "projectFilePath": "/home/vic_dant1/Documentos/_projects/general-topics-study/DotNetCleanArch/PostgreSQLRefactCleanArch/WebUI/WebUI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/vic_dant1/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/vic_dant1/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
