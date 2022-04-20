@@ -10,4 +10,5 @@ The objective of this project is to study and remind important concepts in softw
 - IoC layer
 - Search for Migrations Assembly in NpgSql lib
 - Find an answer to above's question and run EF migrations
+- Create and run XUnit test projects
 
