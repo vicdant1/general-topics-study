@@ -14,32 +14,9 @@ use App\Http\Controllers\ProductsController;
 |
 */
 
-// route that sends back a view
 Route::get('/products', [ProductsController::class, 'index']);
+Route::get('products/{id}', [ProductsController::class, 'show']);
+
+
 Route::get('/products/about', [ProductsController::class, 'about']);
 
-/*
-
-// route to users - returning a string
-Route::get('/users', function(){
-    return 'welcome to users page';
-});
-
-
-// route to users - array (JSON -> automatic cast)
-
-Route::get('/users', function(){
-    return ['PHP', 'HTML', 'Laravel'];
-});
-
-Route::get('/users', function(){
-    return response()->json([
-        'name' => 'Dary',
-        'course' => 'Laravel beginners to advanced'
-    ]);
-});
-
-Route::get('/users', function(){
-    return redirect('/');
-});
-*/
