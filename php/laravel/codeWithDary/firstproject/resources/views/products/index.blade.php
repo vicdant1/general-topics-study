@@ -7,6 +7,8 @@
     <title>Products</title>
 </head>
 <body>
-    Products
+    <h1>Products</h1>
+    <p>{{ $title }}</p>
+    <p>{{ $description }}</p>
 </body>
 </html>

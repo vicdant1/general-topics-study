@@ -8,8 +8,11 @@ class ProductsController extends Controller
 {
     public function index()
     {
-        return view('products.index');
+        $title = "Welcome to my Laravel website";
+        $description = "Created by Jay";
+        return view('products.index', compact('title', 'description'));
     }
+
 
     public function about()
     {
