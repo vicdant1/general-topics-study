@@ -8,7 +8,13 @@
 </head>
 <body>
     <h1>Products</h1>
-    <p>{{ $title }}</p>
-    <p>{{ $description }}</p>
+    {{-- <p>{{ $title }}</p>
+    <p>{{ $description }}</p> --}}
+
+    @foreach ($data as $product)
+        <p>{{ $product }}</p>        
+    @endforeach
+
+    
 </body>
 </html>

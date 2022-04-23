@@ -10,7 +10,19 @@ class ProductsController extends Controller
     {
         $title = "Welcome to my Laravel website";
         $description = "Created by Jay";
-        return view('products.index', compact('title', 'description'));
+        
+        // Compact method
+        // return view('products.index', compact('title', 'description'));
+
+        // With method
+        $data = [
+            1 => 'iPhone',
+            2 => 'Samsung',
+            3 => 'BlackBerry'
+        ];
+
+        return view('products.index')->with('data', $data);
+
     }
 
 
