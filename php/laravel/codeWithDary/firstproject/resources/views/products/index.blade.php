@@ -15,7 +15,13 @@
         <p>{{ $product }}</p>        
     @endforeach --}}
 
-    <p>{{ $product }}</p>
+    {{-- <p>{{ $product }}</p> --}}
+
+    {{-- {{ route('products') }} --}}
+
+    {{-- <a href="{{ route('products') }}">Products</a> --}}
+
+    
 
     
 </body>
