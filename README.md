@@ -16,23 +16,27 @@ This is a small repo I built for store my study material, you can try to use it,
 	<tbody>
 		<tr>
 			<td>React Js</td>
-			<td>NextJs, Material UI, React Dom, Hooks, APP Lifecycle</td>
+			<td>NextJs, Material UI, React Dom, Hooks, APP Lifecycle, Typescript on React apps</td>
 		</tr>
 		<tr>
 			<td>Vue Js</td>
-			<td>NuxtJs, Vuetify, Lifecycle, Useful methods</td>
+			<td>NuxtJs, Vuetify, Vuelidate, html2pdf, Lifecycle, Typescript on Vue apps, useful</td>
 		</tr>
 		<tr>
-			<td>DotNet</td>
-			<td>.NET Core, .NET 5^, EF Core, ASP.NET MVC, Classic aspx, Repository pattern on Dotnet, Clean Architecture</td>
+			<td>.NET</td>
+			<td>.NET Core, .NET 5^, EF Core, ASP.NET MVC, Classic aspx, Repository pattern on .NET, Clean Architecture, XUnity, Microservices, Authentication and Authorization, Desktop Apps</td>
 		</tr>
 		<tr>
-			<td>Databases</td>
-			<td>SQL Server, MongoDB, MySQL</td>
+			<td>Java</td>
+			<td>Spring, Spring Boot, Thymeleaf, Hibernate</td>
+		</tr>
+		<tr>
+			<td>Databases/ORMs</td>
+			<td>SQL Server, MongoDB, PostgreSQL, Dapper</td>
 		</tr>
 		<tr>
 			<td>General</td>
-			<td>C# basic syntax, Git, CSS and HTTP Concepts, Sass, Animation with CSS, TypeScript on React/Vue projects, PHP, Laravel, Flutter, React Native, etc.</td>
+			<td>C# basic syntax, Git, CSS and HTTP Concepts, Sass, Animation with CSS, TypeScript on React/Vue projects, PHP, Laravel, Flutter, React Native, GraphQL, Docker, AWS, JWT, SOLID</td>
 		</tr>
 	</tbody>
 </table>
