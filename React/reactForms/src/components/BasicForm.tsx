@@ -1,25 +1,30 @@
 import React, { useState } from "react";
 
 interface DataFormMock {
-  email?: string;
-  password?: string;
-  message?: string
+  email: string;
+  password: string;
+  message: string;
+  brand: string;
+  price: number;
 }
 
 const BasicForm: React.FC<DataFormMock> = (mockData) => {
   const defaultFields = {
     email: "",
     password: "",
-    message: ""
+    message: "",
+    brand: "",
+    price: 0
   };
 
-  const [dataForm, setDataForm] = useState<DataFormMock>(mockData || defaultFields);
+  const [dataForm, setDataForm] = useState<DataFormMock>(
+    mockData || defaultFields
+  );
 
   //@ts-ignore
   const handleInput = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.target.name !== "")
+    if (e.target.name != "")
       setDataForm({ ...dataForm, [e.target.name]: e.target.value });
-    console.log(mockData)
   };
 
   //@ts-ignore
@@ -57,7 +62,32 @@ const BasicForm: React.FC<DataFormMock> = (mockData) => {
           id="password"
         />
 
-        <textarea className="form-control mt-2" name="message" id="message" cols={30} rows={6} placeholder="Message" onChange={(e) => handleInput(e)} defaultValue={dataForm.message}></textarea>
+        <label htmlFor="message">Message</label>
+        <textarea
+          className="form-control mt-2"
+          name="message"
+          id="message"
+          cols={30}
+          rows={6}
+          placeholder="Message"
+          onChange={(e) => handleInput(e)}
+          value={dataForm.message}
+        ></textarea>
+
+        <label htmlFor="brand">Brand</label>
+        <select className="form-control" value={dataForm.brand}
+        onChange={(e) => handleInput(e)} name="brand">
+            <option value="abluble">abluble</option>
+            <option value="oracle">oracle</option>
+            <option value="microsoft">microsoft</option>
+            <option value="dell">dell</option>
+        </select>
+
+
+        <label htmlFor="price" className="form-label">Ranger</label>
+        <input name="price" type="range" className="form-range" id="price" onChange={(e) => handleInput(e)}></input>
+        
+        {dataForm.price == 0 ? (<div>No data :'/</div>) : (<div className="text-center ">U$ {dataForm.price}</div>)}
 
         <button type="submit" className="btn btn-primary mt-2">
           Submit
