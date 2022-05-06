@@ -3,11 +3,12 @@ import BasicForm from "./components/BasicForm";
 import Counter from "./components/Counter";
 
 const App = () => {
-  const [showCounter, setShowCounter] = useState(false);
-  const [randomInputState, setRandomInputState] = useState("");
+  const [showCounter, setShowCounter] = useState<boolean>(false);
+  const [randomInputState, setRandomInputState] = useState<string>("");
+  const [user, setUser] = useState<string>('Joao');
 
   const calcBoolean = useMemo(() => {
-    console.log("function called");
+    console.log("calc boolean");
     if (showCounter == true) return "TRUE";
     else return "FALSE";
   }, [showCounter]);
@@ -44,6 +45,8 @@ const App = () => {
         onChange={(e) => setRandomInputState(e.target.value)}
       />
       <br />
+
+
     </>
   );
 };
