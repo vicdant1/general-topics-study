@@ -21,3 +21,15 @@ input:invalid ~ span{
   flex-direction: column;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
 }
+
+.validationForm{
+  width: 600px;
+  background-color: rgba(241, 241, 241, 0.705);
+  padding: 1rem;
+  border-radius: 10px;
+  min-height: 250px;
+}
+
+.validationForm p {
+  color: red;
+}
