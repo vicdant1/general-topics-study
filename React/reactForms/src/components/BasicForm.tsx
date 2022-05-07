@@ -6,6 +6,7 @@ interface DataFormMock {
   message: string;
   brand: string;
   price: number;
+  social: object;
 }
 
 const BasicForm: React.FC<DataFormMock> = (mockData) => {
@@ -14,7 +15,8 @@ const BasicForm: React.FC<DataFormMock> = (mockData) => {
     password: "",
     message: "",
     brand: "",
-    price: 0
+    price: 0,
+    social: {},
   };
 
   const [dataForm, setDataForm] = useState<DataFormMock>(
@@ -23,8 +25,16 @@ const BasicForm: React.FC<DataFormMock> = (mockData) => {
 
   //@ts-ignore
   const handleInput = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.target.name != "")
-      setDataForm({ ...dataForm, [e.target.name]: e.target.value });
+    const { type, value, name, checked } = e.target;
+    const isCheckbox = type == "checkbox";
+    // @ts-ignore
+    const data = dataForm[name] || {};
+    if (isCheckbox) data[value] = checked;
+
+    const newVal = isCheckbox ? data : value;
+
+    if (name != "") setDataForm({ ...dataForm, [name]: newVal });
+    
   };
 
   //@ts-ignore
@@ -75,19 +85,66 @@ const BasicForm: React.FC<DataFormMock> = (mockData) => {
         ></textarea>
 
         <label htmlFor="brand">Brand</label>
-        <select className="form-control" value={dataForm.brand}
-        onChange={(e) => handleInput(e)} name="brand">
-            <option value="abluble">abluble</option>
-            <option value="oracle">oracle</option>
-            <option value="microsoft">microsoft</option>
-            <option value="dell">dell</option>
+        <select
+          className="form-control"
+          value={dataForm.brand}
+          onChange={(e) => handleInput(e)}
+          name="brand"
+        >
+          <option value="abluble">abluble</option>
+          <option value="oracle">oracle</option>
+          <option value="microsoft">microsoft</option>
+          <option value="dell">dell</option>
         </select>
 
+        <label htmlFor="price" className="form-label">
+          Ranger
+        </label>
+        <input
+          name="price"
+          type="range"
+          className="form-range"
+          id="price"
+          onChange={(e) => handleInput(e)}
+        ></input>
 
-        <label htmlFor="price" className="form-label">Ranger</label>
-        <input name="price" type="range" className="form-range" id="price" onChange={(e) => handleInput(e)}></input>
-        
-        {dataForm.price == 0 ? (<div>No data :'/</div>) : (<div className="text-center ">U$ {dataForm.price}</div>)}
+        {dataForm.price == 0 ? (
+          <div>No data :'/</div>
+        ) : (
+          <div className="text-center ">U$ {dataForm.price}</div>
+        )}
+
+        <div className="checkboxes d-flex justify-content-between mt-2">
+          <label>
+            <input
+              type="checkbox"
+              value="instagram"
+              name="social"
+              onChange={(e) => handleInput(e)}
+            />
+            Instagram
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              value="facebook"
+              name="social"
+              onChange={(e) => handleInput(e)}
+            />
+            Facebook
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              value="twitter"
+              name="social"
+              onChange={(e) => handleInput(e)}
+            />
+            Twitter
+          </label>
+        </div>
 
         <button type="submit" className="btn btn-primary mt-2">
           Submit
