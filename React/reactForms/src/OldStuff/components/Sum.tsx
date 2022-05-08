@@ -23,7 +23,7 @@ const Sum:React.FC<SumProps> = ({sumFunction}) => {
 
             INTERNAL COUNTER: {internalCounter} <br />
 
-            important: do not call directly functions passed by params inside of tsx because it will hurt useCallback principles. The component will display information and call function over and over again. It means useCallback will not be useful, try to put useMemo + useCallback when using this approach and display things with it own states     
+            important: do not call directly functions passed by params inside of tsx because it will hurt useCallback principles. The component will display information and call function over and over again. It means useCallback will not be useful, try to put useMemo + useCallback when using this approach and display things with it own states
         </div>
     )
 }
