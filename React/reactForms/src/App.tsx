@@ -1,7 +1,8 @@
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, useCallback, useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import BasicForm from "./components/BasicForm";
 import Counter from "./components/Counter";
+import Sum from "./components/Sum";
 
 const App = () => {
   /*
@@ -58,6 +59,11 @@ const App = () => {
     
     return false;
   }, [counter]);
+
+  const sumFunction = useCallback((a:number, b:number) => {
+    console.log('sum function called')
+    return a+b
+  }, [])
 
   return (
     <>
@@ -139,9 +145,12 @@ const App = () => {
           >
             Increment
           </button>
-
           set input state:
           <input className="form-control" onChange={(e) => handleInputChange(e)} type="text" name="inputstate" id="inputstate" />
+
+          <br />
+
+          sum component: <Sum sumFunction={sumFunction}/>
         </div>
       </div>
     </>
