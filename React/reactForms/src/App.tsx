@@ -1,9 +1,10 @@
-import { useMemo, useState } from "react";
+import { FormEvent, useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import BasicForm from "./components/BasicForm";
 import Counter from "./components/Counter";
 
 const App = () => {
+  /*
   const [showCounter, setShowCounter] = useState<boolean>(false);
   const [randomInputState, setRandomInputState] = useState<string>("");
 
@@ -40,11 +41,27 @@ const App = () => {
     if (showCounter == true) return "TRUE";
     else return "FALSE";
   }, [showCounter]);
+  */
 
+  const [counter, setCounter] = useState<number>(0);
+  const [inputState, setInputState] = useState<string>('');
+
+  const handleInputChange = (e:React.ChangeEvent<HTMLInputElement>) => {
+    console.log('input change')
+    const { value } = e.target;
+    setInputState(value);
+  }
+
+  const isEven = useMemo(() => {
+    console.log('is even rendered')
+    if (counter % 2 == 0) return true;
+    
+    return false;
+  }, [counter]);
 
   return (
     <>
-      <h4 className="text-center mt-2">Estudando Formularios React</h4>
+      {/* <h4 className="text-center mt-2">Estudando Formularios React</h4>
       <BasicForm
         email="abluble@abluble.com"
         password="123123123"
@@ -73,10 +90,10 @@ const App = () => {
         id="random"
         onChange={(e) => setRandomInputState(e.target.value)}
       />
-      <br />
+      <br /> */}
 
       <div className="container">
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-12 my-5 d-flex justify-content-center">
             <form onSubmit={handleSubmit((data) => onSubmitValidationForm(data))} className="validationForm" autoComplete="false">
               <label htmlFor="email">Email*</label>
@@ -108,6 +125,23 @@ const App = () => {
               </div>
             </form>
           </div>
+        </div> */}
+        <div className="row">
+          <h1 className="text-center">useMemo + useCallback</h1>
+          <div className="text-center">
+            {counter} <br />
+            is even? {isEven ? "yes" : "no"}
+          </div>
+
+          <button
+            className="btn btn-primary mt-3"
+            onClick={() => setCounter(counter + 1)}
+          >
+            Increment
+          </button>
+
+          set input state:
+          <input className="form-control" onChange={(e) => handleInputChange(e)} type="text" name="inputstate" id="inputstate" />
         </div>
       </div>
     </>
