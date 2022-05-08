@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import BasicForm from "./components/BasicForm";
 import Counter from "./components/Counter";
@@ -18,7 +18,18 @@ const App = () => {
     gender: string
   }
   
-  const { register, handleSubmit, setFocus, formState: {errors} } = useForm<IInputs>();
+  const { register, handleSubmit, setFocus, formState: {errors} } = useForm<IInputs>(
+    {
+      mode: 'onChange',
+      reValidateMode: 'onChange',
+      defaultValues: {},
+      resolver: undefined,
+      context: undefined,
+      criteriaMode: "firstError",
+      shouldFocusError: true,
+      shouldUnregister: true
+    }
+  );
 
   const onSubmitValidationForm = (data:any) => {
     console.log(data)
@@ -29,6 +40,7 @@ const App = () => {
     if (showCounter == true) return "TRUE";
     else return "FALSE";
   }, [showCounter]);
+
 
   return (
     <>
@@ -66,7 +78,7 @@ const App = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12 my-5 d-flex justify-content-center">
-            <form onSubmit={handleSubmit((data) => onSubmitValidationForm(data))} className="validationForm">
+            <form onSubmit={handleSubmit((data) => onSubmitValidationForm(data))} className="validationForm" autoComplete="false">
               <label htmlFor="email">Email*</label>
               <input className="form-control" placeholder="Email" {...register("email", {required: "Email is a required field", pattern: {value: emailRegex, message: 'Please, enter a valid email'}})}/>
               {errors.email && <p>{errors.email.message}</p>}
@@ -89,7 +101,6 @@ const App = () => {
                     <option value="F">Female</option>
                   </select>
                   {errors.gender && <p>{errors.gender.message}</p>}
-
                 </div>
               </div>
               <div className="w-100 d-flex justify-content-end">

@@ -6,7 +6,7 @@ interface DataFormMock {
   message: string;
   brand: string;
   price: number;
-  social: object;
+  social?: object;
 }
 
 const BasicForm: React.FC<DataFormMock> = (mockData) => {
