@@ -1,0 +1,35 @@
+span{
+    display: none !important;
+    color: red;
+  }
+  
+  input:invalid ~ span{
+    display: block;
+  }
+  
+  .counter{
+    background-color: rgb(233, 233, 233);
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 10px;
+    min-height: 150px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+  }
+  
+  .validationForm{
+    width: 600px;
+    background-color: rgba(241, 241, 241, 0.705);
+    padding: 1rem;
+    border-radius: 10px;
+    min-height: 250px;
+  }
+  
+  .validationForm p {
+    color: red;
+  }

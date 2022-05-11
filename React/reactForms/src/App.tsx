@@ -1,8 +1,13 @@
-import React from "react";
+import CircleProgress from "./components/CircleProgress/CircleProgress";
+import Navbar from "./components/Navbar/Navbar";
+import './index.css'
 
 const App = () => {
     return (
-        <div>Hello World</div>
+        <div>
+            <Navbar/>
+            <CircleProgress/>
+        </div>
     )
 }
 
