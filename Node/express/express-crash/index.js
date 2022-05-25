@@ -1,29 +1,19 @@
 const express = require("express");
-const path = require("path");
-const members = require("./Members");
-const InitialMiddleware = require("./InitialMiddleware");
+const bodyParser = require("body-parser");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// setting information as json
-app.get("/api/members", (req, res) => {
-  res.json(members);
-});
+const path = require("path");
 
-app.get("/api/members/:id", (req, res) => {
-  const { id } = req.params;
-  const filteredMembers = members.filter(
-    (member) => member.id === parseInt(id)
-  );
+const InitialMiddleware = require("./InitialMiddleware");
+const MembersRoutes = require('./routes/api/membersRoutes')
 
-  filteredMembers.length > 0
-    ? res.status(200).json(filteredMembers)
-    : res.status(400).json({ msg: "not found :/" });
-});
-
-// middlewares
-// app.use(InitialMiddleware);
-// creating a statc dir to the application
+// Middlewares
 app.use(express.static(path.join(__dirname, "public")));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}))
+
+// Routes
+app.use('/api/members', MembersRoutes);
 
 app.listen(PORT, () => console.log(`app running at ${PORT} port.`));
