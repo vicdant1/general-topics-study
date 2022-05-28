@@ -27,15 +27,11 @@ fs
 
 Object.keys(db).forEach(modelName => {
   if (db[modelName].associate) {
-    console.log(`associating ${modelName}`);
     db[modelName].associate(db);
   }
 });
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
-
-db.Aluno = require('./aluno')(sequelize, Sequelize);
-db.Turma = require('./turma')(sequelize, Sequelize);
 
 module.exports = db;
