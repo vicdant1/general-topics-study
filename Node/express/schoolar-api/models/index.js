@@ -34,17 +34,15 @@ fs.readdirSync(__dirname)
     db[model.name] = model;
   });
 
-Object.keys(db).forEach((modelName) => {
-  if (db[modelName].associate) {
-    console.log(`-- Associating ${modelName}`);
-    db[modelName].associate(db);
-  }
-});
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 db.Aluno = require("./aluno")(sequelize, Sequelize);
+db.Aluno.associate(db);
+
 db.Turma = require("./turma")(sequelize, Sequelize);
+db.Turma.associate(db);
+
 
 module.exports = db;
