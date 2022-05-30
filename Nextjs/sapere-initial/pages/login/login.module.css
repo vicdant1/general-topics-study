@@ -1,0 +1,14 @@
+.imgContainer {
+  background-color: #0e1977;
+  background-image: url("/images/stanford.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.formLogin {
+  width: 100% !important;
+  max-width: 400px;
+  padding: 1rem;
+  justify-content: center;
+}
