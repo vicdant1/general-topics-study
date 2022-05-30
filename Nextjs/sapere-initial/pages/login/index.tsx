@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import style from "./login.module.css";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 const Login: NextPage = () => {
   return (
@@ -16,7 +17,10 @@ const Login: NextPage = () => {
           {/* <img src="/images/Avalon.png" alt="login-image" /> */}
         </div>
         <div className="col-md-5 m-0 p-0">
-          <div className="d-flex justify-content-center align-items-center flex-column" style={{height: "100vh"}}>
+          <div
+            className="d-flex justify-content-center align-items-center flex-column"
+            style={{ height: "100vh" }}
+          >
             <h3 className="text-center">Bem vindo ao Sapere</h3>
             <p className="font-weight-light text-muted">
               Faça login em sua conta
@@ -44,7 +48,9 @@ const Login: NextPage = () => {
                   <a href="http://google.com">Esqueci minha senha</a>
                 </div>
               </div>
-              <button className="btn btn-primary mt-2 w-100">Login</button>
+              <Link href="/">
+                <button className="btn btn-primary mt-2 w-100">Login</button>
+              </Link>
             </form>
           </div>
         </div>
