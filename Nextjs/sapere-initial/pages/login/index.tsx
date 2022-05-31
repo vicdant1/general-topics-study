@@ -8,7 +8,7 @@ const Login: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Sapere - Login</title>
+        <title>Avalon - Login</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -21,7 +21,7 @@ const Login: NextPage = () => {
             className="d-flex justify-content-center align-items-center flex-column"
             style={{ height: "100vh" }}
           >
-            <h3 className="text-center">Bem vindo ao Sapere</h3>
+            <h3 className="text-center">Bem vindo à Avalon</h3>
             <p className="font-weight-light text-muted">
               Faça login em sua conta
             </p>
@@ -49,7 +49,7 @@ const Login: NextPage = () => {
                 </div>
               </div>
               <Link href="/">
-                <button className="btn btn-primary mt-2 w-100">Login</button>
+                <button className="btn btn-dark mt-2 w-100">Login</button>
               </Link>
             </form>
           </div>
