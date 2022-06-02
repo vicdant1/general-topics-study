@@ -1,5 +1,7 @@
 import Image from "next/image";
+import UserButton from "../UserButton/UserButton";
 import style from './navbar.module.css';
+import { FaBars } from 'react-icons/fa'
 
 
 const Navbar = () => {
@@ -32,12 +34,12 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div>
-        <button>User area</button>
-        <button>toggler</button>
+      <div className="d-flex align-items-center">
+        <UserButton image={"/images/Avalon.png"}/>
+        <button>
+          <FaBars />
+        </button>
       </div>
-
-
     </nav>
   );
 }
