@@ -1,0 +1,24 @@
+
+
+.navContainer
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  color: #FFF;
+}
+
+.navItems
+{
+  flex-grow: 1;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.navItem
+{
+  margin: 0 1rem .5rem 0;
+  font-size: 1.1rem;
+}
