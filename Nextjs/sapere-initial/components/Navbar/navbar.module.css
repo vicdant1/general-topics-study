@@ -22,3 +22,23 @@
   margin: 0 1rem .5rem 0;
   font-size: 1.1rem;
 }
+
+.toggleButton
+{
+  display: none !important;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  color: #FFF;
+  font-size: 2rem;
+  outline: 0;
+}
+
+@media screen and (max-width: 576px)
+{
+  .toggleButton
+  {
+    display: flex !important;
+    align-items: center;
+  }
+}

@@ -1,10 +1,12 @@
 import Image from "next/image";
 import UserButton from "../UserButton/UserButton";
 import style from './navbar.module.css';
-import { FaBars } from 'react-icons/fa'
-
+import { FaBars, FaTimes } from 'react-icons/fa'
+import { useState } from "react";
 
 const Navbar = () => {
+  const [toggleButton, setToggleButton] = useState<Boolean>(false);
+
   return (
     <nav className={`bg-dark ${style.navContainer} p-2`}>
       <div>
@@ -35,9 +37,9 @@ const Navbar = () => {
       </ul>
 
       <div className="d-flex align-items-center">
-        <UserButton image={"/images/Avalon.png"}/>
-        <button>
-          <FaBars />
+        <UserButton image={"/images/Avalon.png"} username="vicdant1" />
+        <button className={`${style.toggleButton} px-1`} onClick={() => setToggleButton(!toggleButton)}>
+          {toggleButton ? <FaTimes/> : <FaBars />}
         </button>
       </div>
     </nav>
