@@ -12,7 +12,6 @@ const Navbar = () => {
       <div>
         <Image src="/images/LogoAvalon.svg" alt="Avalon Logo" width={100} height={40} />
       </div>
-
       <ul className={`${style.navItems}`}>
         <li className={`${style.navItem}`}>
           <a href="/">Link</a>
