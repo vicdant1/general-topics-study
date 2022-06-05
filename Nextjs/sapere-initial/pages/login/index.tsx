@@ -16,7 +16,7 @@ const Login: NextPage = () => {
         <div className={`col-md-7 ${style.imgContainer} p-0 d-none d-md-block`}>
           {/* <img src="/images/Avalon.png" alt="login-image" /> */}
         </div>
-        <div className="col-md-5 m-0 p-0">
+        <div className="col-md-5 m-0 p-0 bg-white">
           <div
             className="d-flex justify-content-center align-items-center flex-column"
             style={{ height: "100vh" }}
