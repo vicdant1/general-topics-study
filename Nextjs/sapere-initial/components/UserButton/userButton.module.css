@@ -41,10 +41,12 @@
 .userOptions
 {
   position: absolute;
+  z-index: 1000 !important;
   right: 8px;
   top: 65px;
   color: #000;
   box-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+  background-color: #FFF;
   padding: 1rem 0;
   border-radius: 4px;
 }

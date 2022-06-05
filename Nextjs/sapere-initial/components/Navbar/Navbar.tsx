@@ -1,26 +1,38 @@
 import Image from "next/image";
 import UserButton from "../UserButton/UserButton";
 import style from './navbar.module.css';
+import useOnClickOutside from '../../utils/useOnClickOutside';
 import { FaBars, FaTimes } from 'react-icons/fa'
-import { useState } from "react";
+import { LegacyRef, useRef, useState, useEffect } from "react";
 
-const Navbar = () => {
+const Navbar = () => {  
   const [toggleButton, setToggleButton] = useState<Boolean>(false);
+  const navRef = useRef() as LegacyRef<HTMLUListElement> | undefined;
+  
+  useOnClickOutside(navRef, () => setToggleButton(false));
+  
+  useEffect(() => {
+    window.addEventListener('resize', () => {
+      if(window.innerWidth > 576)
+        setToggleButton(false);
+    })
+  }, []);
+
 
   return (
-    <nav className={`bg-dark ${style.navContainer} p-2`}>
+    <nav className={`bg-dark ${style.navContainer} p-2`} ref={navRef}>
       <div>
         <Image src="/images/LogoAvalon.svg" alt="Avalon Logo" width={100} height={40} />
       </div>
-      <ul className={`${style.navItems}`}>
+      <ul className={`${style.navItems} ${toggleButton ? style.active : style.inactive } `}>
         <li className={`${style.navItem}`}>
-          <a href="/">Link</a>
+          <a className="link-expand" href="/">Link</a>
         </li>
         <li className={`${style.navItem}`}>
-          <a href="/">Link</a>
+          <a className="link-expand" href="/">Link</a>
         </li>
         <li className={`${style.navItem}`}>
-          <a href="/">Link</a>
+          <a className="link-expand" href="/">Link</a>
         </li>
         <li className={`${style.navItem} dropdown`}>
           <a className="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

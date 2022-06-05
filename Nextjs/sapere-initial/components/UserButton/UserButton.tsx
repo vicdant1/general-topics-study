@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useRef, useState } from "react";
 import { BiLogOut } from "react-icons/bi";
 import { FaUserCircle, FaAccessibleIcon, FaRegChartBar } from "react-icons/fa";
@@ -13,7 +14,7 @@ interface UserButtonProps {
 
 const UserButton = ({ image, username }: UserButtonProps) => {
   const [showUserOptions, setShowUserOptions] = useState<Boolean>(false);
-  const optRef = useRef() as React.MutableRefObject<HTMLInputElement>;;
+  const optRef = useRef() as React.MutableRefObject<HTMLInputElement>;
 
   useOnClickOutside(optRef, () => setShowUserOptions(false));
 
@@ -27,7 +28,11 @@ const UserButton = ({ image, username }: UserButtonProps) => {
           <li> <span><FaUserCircle/></span> Perfil</li>
           <li> <span><FaAccessibleIcon/></span> Acessibilidade</li>
           <li> <span><FaRegChartBar/></span> Painéis de controle</li>
-          <li> <span><BiLogOut/></span> Sair</li>
+          <Link href="/login">
+            <li> 
+                <span><BiLogOut/></span> Sair
+            </li>
+          </Link>
         </ul>
       </div>
       )}
