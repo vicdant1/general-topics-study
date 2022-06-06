@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <nav className={`bg-dark ${style.navContainer} p-2`} ref={navRef}>
       <div>
-        <Image src="/images/LogoAvalon.svg" alt="Avalon Logo" width={100} height={40} />
+        <Image src="/images/AvalonShortLogo.svg" alt="Avalon Logo" width={40} height={40} />
       </div>
       <ul className={`${style.navItems} ${toggleButton ? style.active : style.inactive } `}>
         <li className={`${style.navItem}`}>
