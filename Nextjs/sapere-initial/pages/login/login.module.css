@@ -1,14 +1,45 @@
-.imgContainer {
-  background-color: #0e1977;
-  background-image: url("/images/stanford.jpg");
+.sideImageContainer
+{
+  background-color: #1F28EB;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("/images/stanford.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
+}
+
+.floatingBrand
+{
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 0;
+  z-index: 10000;
+  top: 1rem;
+  left: 1rem;
+}
+
+.loginFormContainer
+{
+  padding: 1rem;
+  background-color: #FFF;
 }
 
 .formLogin {
   width: 100% !important;
   max-width: 400px;
-  padding: 1rem;
   justify-content: center;
+}
+
+
+@media screen and (max-width: 768px)
+{
+  .loginContainer{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("/images/stanford.jpg");
+  }
+
+  .loginFormContainer {
+    border-radius: 8px;
+  }
 }
