@@ -36,7 +36,7 @@ This is a small repo I built for store my study material, you can try to use it,
 		</tr>
 		<tr>
 			<td>General</td>
-			<td>C# basic syntax, Git, CSS and HTTP Concepts, Sass, Animation with CSS, TypeScript on React/Vue projects, PHP, Laravel, Flutter, React Native, GraphQL, Docker, AWS, JWT, SOLID</td>
+			<td>C# syntax, Git, CSS and HTTP Concepts, Sass, Animation with CSS, TypeScript on React/Vue projects, PHP, Laravel, Flutter, React Native, GraphQL, Docker, AWS, JWT, SOLID</td>
 		</tr>
 	</tbody>
 </table>
