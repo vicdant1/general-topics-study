@@ -1,0 +1,89 @@
+.board
+{
+  background-color: #F293 !important;
+  width: 100%;
+  min-height: 60vh;
+  height: 100%;
+
+  padding: 1.2rem;
+  border-radius: .4rem;
+
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr); 
+}
+
+.fruit-card
+{
+  border-radius: .4rem;
+  padding: .5rem;
+  margin: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  cursor: pointer;
+  transition: .2s;
+}
+
+.hidden
+{
+  background-color: #F293;
+  transition: .2s;
+  background-image: none !important;
+}
+
+.bg-banana
+{
+  background-image: url('./img/banana.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-laranja
+{
+  background-image: url('./img/laranja.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-limao
+{
+  background-image: url('./img/limao.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-maca
+{
+  background-image: url('./img/maca.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-uva
+{
+  background-image: url('./img/uva.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px)
+{
+  .board
+  {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  body
+  {
+    margin: 0 1rem;
+  }
+}
