@@ -1,6 +1,8 @@
+import { Button } from "react-bootstrap";
 import { useEffect, useState, useCallback } from "react";
 import "./App.css";
 import { Displayer } from "./Displayer";
+import { CustomModal } from "./CustomModal";
 
 function App() {
   const [base_url, setBaseUrl] = useState("https://restcountries.com/v3.1/");
@@ -23,6 +25,16 @@ function App() {
     }, 200);
   }, [fetchData]);
 
+  const [show, setShow] = useState(false);
+
+  const handleModalClose = () => {
+    setShow(false);
+  };
+
+  const handleShow = () => {
+    setShow(true);
+  };
+
   return (
     <div className="App">
       hello world
@@ -42,12 +54,16 @@ function App() {
       <br />
       <button
         onClick={() => {
-          setValue1(value1 +1);
+          setValue1(value1 + 1);
         }}
       >
         change value
       </button>
       <Displayer a={value1} b={2} />
+      <Button variant="primary" onClick={handleShow}>
+        Launch demo modal
+      </Button>
+      <CustomModal show={show} handleClose={handleModalClose} />
     </div>
   );
 }
