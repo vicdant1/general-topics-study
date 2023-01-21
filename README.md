@@ -16,7 +16,7 @@ This is a small repo I built for store my study material, you can try to use it,
 	<tbody>
 		<tr>
 			<td>React Js</td>
-			<td>NextJs, Material UI, React Dom, Hooks, APP Lifecycle, Typescript on React apps</td>
+			<td>NextJs, Material UI, React Dom, Hooks, APP Lifecycle, Typescript on React apps + MUI TS</td>
 		</tr>
 		<tr>
 			<td>Vue Js</td>
